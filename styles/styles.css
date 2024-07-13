@@ -1,0 +1,85 @@
+/* font styles  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+
+    font-family: "Poppins", sans-serif;
+
+}
+
+.banner-section-container{
+
+   max-width: 1365px;
+    height: 550px;
+
+  
+    background-color: rgba(229, 84, 115, 0.1);;
+    /* display: flex; */
+   
+
+}
+
+
+.banner-content{
+ display: flex;
+ width: 90%;
+ margin: 0 auto;
+ /* border: 1px solid red; */
+
+}
+
+
+
+.banner-txt-container{
+
+     width: 50%;
+     /* border: 2px solid green; */
+     height: 550px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.banner-txt-container button {
+
+ margin-right: 470px;
+ width: 140px;
+ height: 44px;
+background-color: rgb(229, 84, 115);
+border: none;
+border-radius: 2px;
+margin-top: 10px;
+}
+
+
+
+.banner-img-container{
+
+    width: 70%;
+   
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.banner-img-container img {
+
+    width: 70%;
+   
+    height: 550px;
+
+}
